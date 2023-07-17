@@ -35,7 +35,7 @@ const server = app.listen(PORT, () => {
 const io = require("socket.io")(server, {
   pingTimeout: 60000,
   cors: {
-    origin: "https://chathub-b6lgxuugh-aryashsaxena.vercel.app/",
+    origin: "https://chatapp-8vkp.onrender.com",
   },
 });
 
